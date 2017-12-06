@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="69px" viewBox="0 0 96 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>cam</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-512.000000, -2170.000000)" stroke="#487914" stroke-width="3">
+            <g id="Page-1" transform="translate(514.000000, 2172.000000)">
+                <path d="M88.9872166,42.5 C88.3983506,43.0921053 69.7407209,65 46,65 C22.2592791,65 2.42391747,43.0921053 3.01278345,42.5 C3.60164943,41.9078947 22.2592791,20 46,20 C69.7407209,20 89.5760825,41.9078947 88.9872166,42.5 Z" id="Stroke-1"></path>
+                <path d="M0,18 C0.629930225,17.4636 20.5918764,0 45.9931639,0 C71.3932718,0 92.6162581,17.4636 91.9863279,18" id="Stroke-3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M68,43 C68,55.1499459 58.1499459,65 46,65 C33.8500541,65 24,55.1499459 24,43 C24,30.8500541 33.8500541,21 46,21 C58.1499459,21 68,30.8500541 68,43 Z" id="Stroke-5"></path>
+                <path d="M56,42.5 C56,47.746375 51.746375,52 46.5,52 C41.253625,52 37,47.746375 37,42.5 C37,37.253625 41.253625,33 46.5,33 C51.746375,33 56,37.253625 56,42.5 Z" id="Stroke-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>
