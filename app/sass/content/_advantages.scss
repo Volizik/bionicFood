@@ -1,0 +1,61 @@
+.advantages {
+  position: relative;
+  padding-left: 40px;
+  padding-right: 40px;
+  @include breakpoint(max-width 600px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h2 {
+    width: 100%;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+    list-style: none;
+    margin-bottom: 53px;
+    @include breakpoint(max-width 998px) {
+      width: 50%;
+      justify-content: center;
+      margin-bottom: 37px;
+    }
+    @include breakpoint(max-width 700px) {
+      width: 100%;
+      margin-bottom: 27px;
+    }
+  }
+  &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    margin-right: 33px;
+    border: 1px solid #FFFF1B;
+    border-radius: 50%;
+    font-weight: 300;
+    font-size: 48px;
+    color: #FFFF1B;
+    flex-shrink: 0;
+    @include breakpoint(max-width 500px) {
+      margin-right: 12px;
+    }
+  }
+  &__text {
+    width: 215px;
+    color: #fff
+  }
+}

@@ -1,0 +1,22 @@
+.hr {
+  display: block;
+  box-sizing: border-box;
+  height: 3px;
+  width: calc(100% - 80px);
+  border: 1px solid #E5E5E5;
+  opacity: 0.5;
+  margin: 0 auto;
+}
+
+.apple {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height: 200px;
+}
+.wheat {
+  position: absolute;
+  left: -150px;
+  top: -150px;
+  height: 501px;
+}
