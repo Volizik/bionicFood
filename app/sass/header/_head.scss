@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   &__top-line {
     display: flex;
@@ -16,6 +18,7 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    z-index: 1;
   }
   &__social {
     &--item {
@@ -42,18 +45,31 @@
   }
   &__girl {
     position: absolute;
-    right: 0;
+    right: 40px;
     bottom: 0;
-    height: 703px;
+    width: 31.45%;
+    @include breakpoint(max-width 900px) {
+      width: 34.24%;
+    }
   }
   &__text {
+    position: relative;
     display: flex;
     align-items: center;
     flex-grow: 1;
     max-width: 689px;
     color: #FFFF1B;
     font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
     line-height: 64px;
     margin: 0;
+    z-index: 1;
+    @include breakpoint(max-width 900px) {
+      padding-left: 76px;
+      font-size: 36px;
+      line-height: 45px;
+      max-width: 408px;
+    }
   }
 }
