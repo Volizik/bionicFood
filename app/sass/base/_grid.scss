@@ -1,7 +1,5 @@
 .container {
     box-sizing: border-box;
-    padding-right: 40px;
-    padding-left: 40px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -11,20 +9,15 @@
     @extend %clearfix;
 }
 
+@media (min-width: 320px) {
+    .container {
+        width: 100%;
+    }
+}
+
 @media (min-width: 1024px) {
     .container {
         width: 1024px;
     }
 }
 
-@media (min-width: 576px) {
-    .container {
-        width: 100%;
-    }
-}
-
-@media (min-width: 320px) {
-    .container {
-        padding: 0 25px;
-    }
-}

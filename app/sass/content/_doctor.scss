@@ -1,0 +1,57 @@
+.doctor__container {
+	display: flex;
+}
+
+.doctor__collars,
+.doctor__bionic {
+	display: flex;
+	align-items: flex-start;
+	width: 50%;
+	height: 394px;
+	padding: 0 15px;
+
+	img {
+		align-self: flex-end;
+	}
+
+	@include breakpoint(max-width 576px) {
+		width: 100%;
+	}
+}
+
+.doctor__collars {
+	padding-top: 40px;
+	color: white;
+	background: radial-gradient(circle at 16% 42%, #A5AAA4 0%, #8F968F 9.3%, #687267 26.53%, #3A3E37 100%);
+
+	img:first-child {
+		height: 340px;
+		margin-right: 50px;
+	}
+
+	.doctor__collars-desc {
+		text-align: center;
+		font-size: 18px;
+		line-height: 24px;
+
+		img {
+			margin-top: 25px;
+		}
+	}
+}
+
+.doctor__bionic {
+	color: #37383E;
+	background: radial-gradient(circle, #FFFFFF 0%, #F8F7F3 21.43%, #E1E5D7 100%);
+
+	img:first-child {
+		margin-right: 20px;
+	}
+
+	.doctor__bionic {
+		h3 {
+			font-size: 18px;
+			font-weight: normal;
+		}
+	}
+}
